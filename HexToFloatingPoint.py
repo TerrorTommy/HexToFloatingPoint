@@ -51,5 +51,5 @@ def Hex2Float(strHex):
     elif binStr[0] == '1':
         signBit = -1
     return signBit * actualExpo * actualMantisa
-print("here it is")
+
 print(Hex2Float('be7ae0f4'))
